@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch12_ex1_sqlGateway_sol">
+    <Resource name="jdbc/murach" auth="Container" 
+        driverClassName="org.postgresql.Driver" 
+        url="jdbc:postgresql://ec2-54-160-200-167.compute-1.amazonaws.com:5432/d6h8l2jmp27bc7" 
+        username="lamojxewcadywo" password="a9c69accaebb0b428cc3386f7f059253b291ee834970f73b7da443b3f87233cf" 
+        maxActive="10" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />  
+</Context>
